@@ -7,9 +7,11 @@
 
 import requests
 import datetime
-import winsound
 import time
 import os
+import platform
+if platform.system() == "Windows":
+	import winsound
 
 ## Constants and initialization
 
@@ -64,7 +66,10 @@ while(True):
 	alert = [False]
 
 	# Print header
-	os.system('cls')
+	if platform.system() == "Windows":
+		os.system('cls')
+	else:
+		os.system('clear')
 	print("D2clone progression:")
 	print("Data courtesy of diablo2.io")
 	print()
@@ -130,7 +135,12 @@ while(True):
 
 		# Print alert line including the region in question and play an alert sound
 		print('  *** ALERT! Terror has invaded ' + regionstrs[call[alert[1]]['region']] + '! ***  ')
-		winsound.Beep(freq, duration)
+		if platform.system() == "Windows":
+			winsound.Beep(freq, duration)
+		elif platform.system() == "Linux" :
+			os.system('beep -f %s -l %s' % (freq, duration))
+		else:
+			print('\a')
 
 	
 	## Wait [delay] seconds until next execution
