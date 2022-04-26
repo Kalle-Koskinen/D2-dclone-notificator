@@ -137,8 +137,16 @@ while(True):
 		print('  *** ALERT! Terror has invaded ' + regionstrs[call[alert[1]]['region']] + '! ***  ')
 		if platform.system() == "Windows":
 			winsound.Beep(freq, duration)
-		elif platform.system() == "Linux" :
-			os.system('beep -f %s -l %s' % (freq, duration))
+		elif platform.system() == "Linux":
+			try:
+				os.system('paplay /usr/share/sounds/freedesktop/stereo/complete.oga')
+			except:
+				print('\a')
+		elif platform.system() == "Darwin":
+			try:
+				os.system('afplay /System/Library/Sounds/Pong.aiff')
+			except:
+				print('\a')
 		else:
 			print('\a')
 
