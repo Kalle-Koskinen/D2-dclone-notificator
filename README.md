@@ -8,10 +8,18 @@ Please note that: 1) this is a first draft, 2) that I have not been able to test
 # How do I use it?
 You simply run the script on a command line and leave it open. Close it by closing the window.
 
+You may need to install *requests* module.
+
 # I don't know how any of this works!
 If you are unfamiliar with github, just go to the main repository page (https://github.com/Kalle-Koskinen/D2-dclone-notificator), click the green "Code" -button, and select download the ZIP file. The ZIP file contains the script d2dclone_notifier.py. 
 
-If you are unfamiliar with running python scripts, easy instructions can be for both installing python (https://codeigo.com/python/installing-python) and running the script (https://codeigo.com/python/run-python-script-on-windows).
+If you are unfamiliar with running python scripts, easy instructions can be found for installing python here (https://codeigo.com/python/installing-python).
+
+Then you will need to install the *requests* -module before running the script. This can be done *after installing python* by:
+1) Open a command prompt
+2) type *pip install requests*
+
+Lastly, you can run the script as instructed here (https://codeigo.com/python/run-python-script-on-windows).
 
 Don't be scared, it should only take a few minutes!
 
