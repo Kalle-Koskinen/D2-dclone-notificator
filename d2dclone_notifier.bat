@@ -1,1 +1,0 @@
-cmd /k "d2dclone_notifier.py"
