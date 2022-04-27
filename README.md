@@ -33,3 +33,4 @@ At this point you would have to slightly edit the code to do that. You can do th
 # Acknowledgments 
 Data courtesy of diablo2.io, thank you!
 Thank you WMAlleg for the batch file and feedback!
+Thank you Masgalor for the adding multi-platform support!
