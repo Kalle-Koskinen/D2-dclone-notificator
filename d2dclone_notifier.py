@@ -59,8 +59,17 @@ for regionidx in range(len(regionstrs)):
 
 while(True):
 
-	# Call data from the API
-	call = requests.get(d2api).json()
+	try:
+		# Call data from the API
+		call = requests.get(d2api).json()
+	except requests.exceptions.HTTPError as e:
+		print("HTTP Error. Trying again after %d seconds." % delay)
+		time.sleep(delay)
+		continue
+	except requests.exceptions.JSONDecodeError as e:
+		print("JSON Error. Trying again after %d seconds." % delay)
+		time.sleep(delay)
+		continue
 
 	# Initialize alert flag as false
 	alert = [False]
