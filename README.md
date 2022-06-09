@@ -15,7 +15,7 @@ If you are unfamiliar with github, just go to the main repository page (https://
 
 If you are unfamiliar with running python scripts, easy instructions can be found for installing python here (https://codeigo.com/python/installing-python).
 
-Then you will need to install the *requests* -module before running the script. This can be done *after installing python* by:
+Then you will need to install the *requests* and *tk* modules before running the script. This can be done *after installing python* by:
 1) Open a command prompt
 2) type *pip install requests*
 3) type *pip install tk*
