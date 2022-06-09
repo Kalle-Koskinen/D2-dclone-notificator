@@ -18,7 +18,7 @@ If you are unfamiliar with running python scripts, easy instructions can be foun
 Then you will need to install the *requests* -module before running the script. This can be done *after installing python* by:
 1) Open a command prompt
 2) type *pip install requests*
-3) type *pip install tkinter*
+3) type *pip install tk*
 
 You can now run the script by clicking on the batch file (d2dclone_notifier.bat) or its shortcut. Or you can run the script from the command line as instructed here (https://codeigo.com/python/run-python-script-on-windows).
 
