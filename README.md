@@ -8,7 +8,7 @@ Please note that: 1) this is a first draft, 2) that I have not been able to test
 # How do I use it? (hard difficulty; browse lower for medium)
 You simply run the script on a command line and leave it open. Close it by closing the window. Or use the batch file.
 
-You may need to install *requests* module.
+You may need to install *requests* and *tk* modules.
 
 # I don't know how any of this works! (mediocre difficulty; browse lower for easy)
 If you are unfamiliar with github, just go to the main repository page (https://github.com/Kalle-Koskinen/D2-dclone-notificator), click the green "Code" -button, and select download the ZIP file. The ZIP file contains the script d2dclone_notifier.py. MAKE SURE you put the batch (.bat) file *d2dclone_notifier.bat* to the same directory as the script! Create a shortcut if u need to launch from elsewhere.
