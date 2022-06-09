@@ -1,7 +1,7 @@
 # D2-dclone-notificator
-This simple python script calls data from diablo2.io diablo clone progression tracker for all regions (non-ladder, softcore), displays the progression in real time (updated every 90 seconds), and raises an alarm (text and a beep) when the progression gets sufficiently high (4 or higher) on any of the regions. It also features a primitive anti-trolling system.
+This simple python script calls data from diablo2.io diablo clone progression tracker for all regions (non-ladder, softcore), displays the progression in real time (updated every 70 seconds), and raises an alarm (text and a beep) when the progression gets sufficiently high (4 or higher) on any of the regions. It also features a primitive anti-trolling system.
 
-This script currently only works for Windows.
+This script currently *should* work for windows, mac and linux. Let me know if you have any problems!
 
 Please note that: 1) this is a first draft, 2) that I have not been able to test this thoroughly, and 3) that I am not an expert programmer. May contain bugs! 
 
@@ -18,19 +18,18 @@ If you are unfamiliar with running python scripts, easy instructions can be foun
 Then you will need to install the *requests* -module before running the script. This can be done *after installing python* by:
 1) Open a command prompt
 2) type *pip install requests*
+3) type *pip install tkinter*
 
 You can now run the script by clicking on the batch file (d2dclone_notifier.bat) or its shortcut. Or you can run the script from the command line as instructed here (https://codeigo.com/python/run-python-script-on-windows).
 
 Don't be scared, it should only take a few minutes!
 
-# What?! (easy difficulty)
+# Still too hard :( (easy difficulty)
 
 It is impossible to learn a language by speaking when you don't know even the basic words. No worries, here is the easiest way to install: https://github.com/Kalle-Koskinen/D2-dclone-notificator/tree/Kalle-Koskinen-Ez-Inst
-
-# I want to use this for ladder/hardcore
-At this point you would have to slightly edit the code to do that. You can do that by opening the script in a text editor, and in the beginning of the script, changing *league* (softcore/hardcore) and *ladder* (ladder/non-ladder) parameters. For league, "1" is hardcore and "2" is softcore (quotation marks included). For ladder, "1" is ladder and "2" is non-ladder (quotation marks included).
 
 # Acknowledgments 
 Data courtesy of diablo2.io, thank you!
 Thank you WMAlleg for the batch file and feedback!
 Thank you Masgalor for the adding multi-platform support!
+Thank you Ownasaurus for the error handling!
