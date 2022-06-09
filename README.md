@@ -1,5 +1,5 @@
 # D2-dclone-notificator
-This simple python script calls data from diablo2.io diablo clone progression tracker for all regions (non-ladder, softcore), displays the progression in real time (updated every 70 seconds), and raises an alarm (text and a beep) when the progression gets sufficiently high (4 or higher) on any of the regions. It also features a primitive anti-trolling system.
+This simple python script calls data from diablo2.io diablo clone progression tracker for all regions, displays the progression in real time (updated every 70 seconds), and raises an alarm (text and a beep) when the progression gets sufficiently high (default: 4) on any of the regions. It also features a primitive anti-trolling system.
 
 This script currently *should* work for windows, mac and linux. Let me know if you have any problems!
 
