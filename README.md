@@ -8,8 +8,7 @@ Step 1: Download the .ZIP file by clicking the green "code" button, and selectin
 Step 2: Unpack the .ZIP file to a directory of your choosing.
 Step 3: Click on the executable.
 
-# I want to use this for ladder/hardcore
-At this point you can't. Send me a message or something if you want to.
+Now it should work for ladder/nonladder and softcore/hardcore :)
 
 # Acknowledgments 
 Data courtesy of diablo2.io, thank you!
